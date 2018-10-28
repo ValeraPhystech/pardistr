@@ -1,8 +1,12 @@
-package com.microsoft.examples;
+package com.pardistrib;
 
 import org.apache.hadoop.hive.ql.exec.Description;
 import org.apache.hadoop.hive.ql.exec.UDF;
 import org.apache.hadoop.io.*;
+import org.apache.hadoop.hive.ql.exec.UDFArgumentException;
+import org.apache.hadoop.hive.ql.metadata.HiveException;
+
+
 
 
 // Description of the UDF
